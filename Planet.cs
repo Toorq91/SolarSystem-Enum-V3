@@ -2,8 +2,6 @@
 {
     public class Planet
     {
-        internal static object _Name;
-
         public string Name { get; }
         public int Radius { get; set; }
         public double Volume => CalculateVolume();
